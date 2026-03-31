@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prem Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+ 
+
+   <nav class="navbar">
+
+    <div class="logo">Welcome to my Prem Skills</div>
+
+     <!-- Toggle Button -->
+    <div class="menu-toggle" id="menu-toggle">
+        ☰
+    </div>
+
+  
+
+    <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="skill.html">Skills</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="gallery.html">Gallrey</a></li>
+        <li><a href="project.html">Project</a></li>
+    </ul>
+</nav>
+
+    <main style="height: 100vh; padding: 100px 20px;">
+       <h3>Technical Skills</h3>
+
+<li onclick="showSkill('assets/images/data analysis.jpg')">
+        <p>Data Analysis</p>
+    </li>
+
+<li onclick="showSkill('assets/images/Presentation.jpg')">
+        <p>Presentation Skills </p>
+    </li>
+
+<li onclick="showSkill('assets/images/Writing.jpg')">
+        <p>Writing Skills</p>
+     </li>
+
+     <!-- Image Viewer -->
+<img id="skillViewer"
+     style="display:none; width:350px; margin-top:20px; border-radius:10px;">
+     
+
+
+
+        <br>
+        <h3>Tools</h3>
+<li onclick="showSkill('assets/images/netbeans.jpg')">
+        <p>NetBeans</p>
+    </li>
+
+<li onclick="showSkill('assets/images/visual studio code.jpg')">
+        <p>Visual Studio Code</p>
+    </li>
+
+<li onclick="showSkill('assets/images/notepad.jpg')">
+        <p>Notepad</p>
+    </li>
+
+    <!-- Image Viewer -->
+<img id="skillViewer"
+     style="display:none; width:350px; margin-top:20px; border-radius:10px;">
+     
+
+        
+        <br>
+       <h3>Soft Skills</h3>
+<li onclick="showSkill('assets/images/problem.jpg')">
+       <p>Problem Solving</p>
+    </li>
+<li onclick="showSkill('assets/images/emo.jpg')">
+       <p>Emotional Intelligence</p>
+    </li>
+<li onclick="showSkill('assets/images/digital.jpg')">
+       <p>Digital Marketing</p>
+    </li>
+<li onclick="showSkill('assets/images/teamwork.jpg')">
+       <p>Teamwork</p>
+    </li>
+<li onclick="showSkill('assets/images/adaptability.jpg')">
+       <p>Adaptability</p>
+    </li>
+
+
+<!-- Image Viewer -->
+<img id="skillViewer"
+     style="display:none; width:350px; margin-top:20px; border-radius:10px;">
+     
+
+
+    </main>
+   
+    <footer class="footer">
+        <p>&copy; 2026 James Premalion. All Rights Reserved.</p>
+    </footer>
+
+    <!-- IMPORTANT: Connect JavaScript -->
+<script src="assets/js/script.js"></script>
+
+
+</body>
+</html>
